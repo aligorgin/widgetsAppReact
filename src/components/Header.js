@@ -28,6 +28,7 @@ const Header = () => {
         return (
             <Link
                 key={i}
+                indexNav={i}
                 href={href}
             >
                 {name}
@@ -36,7 +37,7 @@ const Header = () => {
     });
 
     return (
-        <div className='ui secondary pointing menu'>
+        <div className='ui secondary pointing menu main-nav'>
             {rerenderNav}
         </div>
     );
