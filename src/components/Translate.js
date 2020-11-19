@@ -12,6 +12,10 @@ const options = [
         value: 'fi'
     },
     {
+      label: 'persian',
+      value: 'fa'
+    },
+    {
         label: 'french',
         value: 'fr'
     },
